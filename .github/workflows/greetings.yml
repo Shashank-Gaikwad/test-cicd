@@ -1,0 +1,15 @@
+name: Greetings
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - name: List files
+    - run: ls -ltr
+    - name: Echo simple message
+    - run: echo "Hello Shashank"
+      
