@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3 
     - name: List files
-    - run: ls -ltr
+      run: ls -ltr
     - name: Echo simple message
-    - run: echo "Hello Shashank"
+      run: echo "Hello Shashank"
       
